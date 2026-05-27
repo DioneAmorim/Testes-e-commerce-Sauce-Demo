@@ -1,0 +1,21 @@
+# Robot Framework outputs
+log.html
+output.xml
+report.html
+output*.xml
+*.log
+
+# Generated results and screenshots
+results/
+screenshots/
+selenium-screenshot*.png
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# OS files
+.DS_Store
+Thumbs.db
