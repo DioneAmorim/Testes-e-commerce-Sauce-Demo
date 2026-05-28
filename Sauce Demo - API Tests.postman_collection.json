@@ -1,32 +1,40 @@
 {
-  "info": {
-    "_postman_id": "923c4665-15b1-4a33-ba3f-475edf66dcdc",
-    "name": "Sauce Demo - API Tests",
-    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-    "_exporter_id": "52573320",
-    "_collection_link": "https://go.postman.co/collection/52573320-923c4665-15b1-4a33-ba3f-475edf66dcdc?source=collection_link"
-  },
-  "item": [
-    {
-      "name": "New Request",
-      "request": {
-        "method": "GET",
-        "header": [],
-        "url": {
-          "raw": "https://jsonplaceholder.typicode.com/posts/1",
-          "protocol": "https",
-          "host": [
-            "jsonplaceholder",
-            "typicode",
-            "com"
-          ],
-          "path": [
-            "posts",
-            "1"
-          ]
-        }
-      },
-      "response": []
-    }
-  ]
+	"info": {
+		"_postman_id": "923c4665-15b1-4a33-ba3f-475edf66dcdc",
+		"name": "Sauce Demo - API Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Autenticar Usuario (Login)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"standard_user\",\n  \"password\": \"secret_sauce\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.saucedemo.com/v1/auth/login",
+					"protocol": "https",
+					"host": [
+						"api",
+						"saucedemo",
+						"com"
+					],
+					"path": [
+						"v1",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
 }
