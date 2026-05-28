@@ -1,9 +1,14 @@
 # Aut-qa
 
-## 🎯 O Desafio
+## O Desafio
 Projeto focado em testes automatizados de interface (UI) simulando cenários reais de um e-commerce.
 
-### ⚙️ Escopo de Testes:
+##  Premissas Assumidas
+- O ambiente do Sauce Demo está online e operando sem lentidão.
+- Os usuários padrão fornecidos pelo site (ex: standard_user) estão ativos e com as credenciais inalteradas.
+- O fluxo de checkout não exige dados reais de pagamento (cartão de crédito integrado).
+
+### Escopo de Testes:
 - **Nível 1 ** Login dinâmico, ordenação/filtros, fluxo de compra completo, carrinho e logout.
 - **Nível 2 ** Responsividade, Acessibilidade e automação.
 
