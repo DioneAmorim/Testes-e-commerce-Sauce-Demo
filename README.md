@@ -4,8 +4,8 @@
 Projeto focado em testes automatizados de interface (UI) simulando cenários reais de um e-commerce.
 
 ### ⚙️ Escopo de Testes:
-- **Nível 1 (Obrigatório):** Login dinâmico, ordenação/filtros, fluxo de compra completo, carrinho e logout.
-- **Nível 2 (Diferencial):** Responsividade, Acessibilidade e automação robusta.
+- **Nível 1 ** Login dinâmico, ordenação/filtros, fluxo de compra completo, carrinho e logout.
+- **Nível 2 ** Responsividade, Acessibilidade e automação.
 
 Este repositório contém testes automatizados para o site Sauce Demo, incluindo login, compra, carrinho e checkout.
 
