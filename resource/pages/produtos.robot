@@ -54,9 +54,5 @@ Remover o item do carrinho
 Validar carrinho vazio
     Page Should Not Contain Element    ${CART_ITEM}
 
-Voltar para a pagina de produtos
-    Click Button    ${BTN_CONTINUE}
-    Wait Until Element Is Visible    ${INVENTORY_LIST}
-
 Validar estou na pagina de produtos
     Wait Until Element Is Visible    ${INVENTORY_LIST}
