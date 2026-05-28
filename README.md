@@ -24,3 +24,9 @@ Os screenshots abaixo foram gerados na execução de todos os cenários em `test
 ![Screenshot 7](2026-05-27/selenium-screenshot-7.png)
 ![Screenshot 8](2026-05-27/selenium-screenshot-8.png)
 ![Screenshot 9](2026-05-27/selenium-screenshot-9.png)
+
+
+## 🔍 Identificação de Riscos e Melhorias Futuras
+- **Risco:** Dependência de seletores dinâmicos caso o layout mude.
+- **Melhoria:** Implementação de testes de contrato para a API do e-commerce.
+- **Melhoria:** Integração com pipeline de CI/CD (GitHub Actions).
