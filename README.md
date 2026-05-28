@@ -9,7 +9,7 @@ Projeto focado em testes automatizados de interface (UI) simulando cenários rea
 
 Este repositório contém testes automatizados para o site Sauce Demo, incluindo login, compra, carrinho e checkout.
 
-## Screenshots de hoje (2026-05-27)
+## Screenshots  (2026-05-27)
 
 Os screenshots abaixo foram gerados na execução de todos os cenários em `tests/` no dia 2026-05-27:
 
