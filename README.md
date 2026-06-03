@@ -1,11 +1,15 @@
 ## 🧠 Plano de Testes & Análise Analítica (Sauce Demo)
 
 ### 📋 Estratégia e Casos de Teste Executados
-Os testes foram estruturados para garantir a integridade das principais jornadas do usuário no e-commerce:
-1. **CT01 - Fluxo de Autenticação:** Validação de login com múltiplos perfis (`standard_user`, `locked_out_user` e `problem_user`) e comportamento do sistema de segurança.
-2. **CT02 - Gerenciamento de Produtos:** Teste das funções de ordenação de produtos (A-Z, Z-A, preço crescente e decrescente).
-3. **CT03 - Gestão do Carrinho:** Inclusão e remoção de múltiplos itens no carrinho, validando o contador da interface.
-4. **CT04 - Processo de Checkout:** Fluxo completo desde o preenchimento do formulário de entrega até a tela de sucesso da compra.
+### 📋 Estratégia e Casos de Teste Executados
+Os testes foram estruturados para cobrir o fluxo fim a fim (E2E) da aplicação, garantindo todas as regras de negócio solicitadas:
+* **Cenário 1 - Validar fluxo de login:** Autenticação com sucesso na plataforma.
+* **Cenário 2 - Adicionar produto ao carrinho:** Inclusão de itens e atualização do estado do carrinho.
+* **Cenário 3 - Finalizar compra:** Fluxo completo de checkout, validação de dados e tela de sucesso.
+* **Cenário 4 - Remover item do carrinho:** Gestão e esvaziamento do carrinho de compras.
+* **Cenário 5 - Ordenar produtos por preço:** Validação da regra de ordenação crescente (Low to High).
+* **Cenário 6 - Navegação entre páginas:** Fluxo de ida e volta entre o carrinho e a vitrine sem perda de estado.
+* **Cenário 7 - Logout:** Encerramento seguro da sessão do usuário.
 
 ---
 
