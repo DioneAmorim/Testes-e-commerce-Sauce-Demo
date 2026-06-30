@@ -1,6 +1,5 @@
-## 🧠 Plano de Testes & Análise Analítica (Sauce Demo)
+## Plano de Testes & Análise Analítica (Sauce Demo)
 
-### 📋 Estratégia e Casos de Teste Executados
 ### 📋 Estratégia e Casos de Teste Executados
 Os testes foram estruturados para cobrir o fluxo fim a fim (E2E) da aplicação, garantindo todas as regras de negócio solicitadas:
 * **Cenário 1 - Validar fluxo de login:** Autenticação com sucesso na plataforma.
