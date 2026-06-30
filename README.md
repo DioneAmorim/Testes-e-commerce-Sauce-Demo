@@ -19,7 +19,7 @@ Durante as rodadas de testes com diferentes perfis de usuários, foram identific
 
 ---
 
-### ⚠️ Análise de Riscos
+### Análise de Riscos
 * **Dependência de Seletores Intermediários:** Risco de quebra das automações caso a estrutura do HTML ou as classes CSS sejam alteradas pela equipe de front-end sem aviso prévio. (Mitigação futura: sugerir a inclusão de tags `data-testid`).
 * **Validação Inexistente no Checkout:** O campo de CEP/Zip Code aceita qualquer formato de caractere. Há o risco de envio de dados inválidos para o banco de dados de logística.
 
